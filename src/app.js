@@ -1,4 +1,3 @@
-/* eslint-disable */
 import "bootstrap";
 import "./style.css";
 
@@ -37,12 +36,18 @@ window.onload = function() {
     "mientras cocinaba "
   ];
 
-  let rdm1 = Math.floor(Math.random() * pronombre.length);
-  let rdm2 = Math.floor(Math.random() * sujeto.length);
-  let rdm3 = Math.floor(Math.random() * acción.length);
-  let rdm4 = Math.floor(Math.random() * objeto.length);
-  let rdm5 = Math.floor(Math.random() * donde.length);
+  let random1 = Math.floor(Math.random() * pronombre.length);
+  let random2 = Math.floor(Math.random() * sujeto.length);
+  let random3 = Math.floor(Math.random() * acción.length);
+  let random4 = Math.floor(Math.random() * objeto.length);
+  let random5 = Math.floor(Math.random() * donde.length);
 
   document.querySelector("#excuse").innerHTML =
-    pronombre[rdm1] + sujeto[rdm2] + acción[rdm3] + objeto[rdm4] + donde[rdm5];
+    pronombre[random1] +
+    sujeto[random2] +
+    acción[random3] +
+    objeto[random4] +
+    donde[random5];
+
+  document.getElementById("obtExcusa").addEventListener("click", window.onload);
 };
