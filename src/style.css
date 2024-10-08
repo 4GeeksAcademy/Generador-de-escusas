@@ -11,14 +11,13 @@ body {
   align-items: center;
 }
 .excusa {
-  background-image: url("https://www.ultraimagehub.com/wallpapers/tr:flp-false,gx-0.7,gy-0.5,q-75,rh-3264,rw-5824,th-1080,tw-1920/1242067671902847058.jpeg");
-  background-size: 100%;
-  position: relative;
   width: 1200px;
   height: 200px;
-  min-height: 400px;
   box-shadow: 17px 17px 60px rgba(0, 0, 0, 15);
-  padding: 150px;
+  background-image: url("https://www.ultraimagehub.com/wallpapers/tr:flp-false,gx-0.7,gy-0.5,q-75,rh-3264,rw-5824,th-1080,tw-1920/1242067671902847058.jpeg");
+  background-size: cover;
+  min-height: 400px;
+  padding: 5%;
   text-align: center;
 }
 
